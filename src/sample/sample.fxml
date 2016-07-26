@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="195.0" prefWidth="488.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+
+      <Button fx:id="helloButton" ellipsisString="お天気は？" layoutX="394.0" layoutY="85.0" mnemonicParsing="false" onAction="#onHelloButtonClicked" prefHeight="10.0" prefWidth="73.0" text="Button" textFill="#0f0e0e" textOverrun="CLIP" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" />
+
+      <Label fx:id="helloLabel" layoutX="28.0" layoutY="85.0" prefHeight="25.0" prefWidth="73.0" text="お天気は？" textAlignment="CENTER" textFill="#363434" />
+
+      <TextField fx:id="textCode" layoutX="104.0" layoutY="85.0" prefHeight="27.0" prefWidth="273.0" text="6桁のお天気コードを入力してください。" />
+
+   </children>
+</AnchorPane>
